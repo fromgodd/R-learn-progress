@@ -29,7 +29,7 @@ my_logical_vector <- rep(TRUE, 5)
 ```
 
 ## Selecting Elements from a Vector.
-- Once you have created a vector in R, you can select specific elements from the vector using indexing. In R, indexing starts at 1, not 0. You can select elements from a vector using square brackets `[]`.
+Once you have created a vector in R, you can select specific elements from the vector using indexing. In R, indexing starts at 1, not 0. You can select elements from a vector using square brackets `[]`.
 
 For example, to select the first element from a vector, you can use the following code:
 ```r
