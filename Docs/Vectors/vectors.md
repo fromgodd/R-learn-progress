@@ -45,3 +45,19 @@ my_vector[c(1, 3)]
 ```r
 my_vector[my_vector > 5]
 ```
+
+## Naming Elements in a Vector
+In R, you can also name the elements in a vector using the `names()` function. This can be useful when you are working with large vectors and want to easily reference specific elements by name.
+
+For example, to create a numeric vector and name the elements, you can use the following code:
+
+```r
+my_vector <- c(1, 2, 3, 4)
+names(my_vector) <- c("first","second", "third", "fourth")
+```
+
+Once you have named the elements in a vector, you can select specific elements using their names instead of their indices. For example, to select the element named "third" from a vector, you can use the following code:
+
+```r
+my_vector["third"]
+```
