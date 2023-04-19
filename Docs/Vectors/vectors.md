@@ -14,13 +14,13 @@ my_vector <- c(1, 2, 3, 4, 5)
 my_other_vector <- c("apple", "banana", "orange")
 ```
 
-- Alternatively, you can create a vector using the seq() function, which generates a sequence of numbers with a specified start, end, and increment value. For example:
+Alternatively, you can create a vector using the seq() function, which generates a sequence of numbers with a specified start, end, and increment value. For example:
 ```r
 # create a sequence of numbers from 1 to 10
 my_sequence <- seq(1, 10, 1)
 ```
 
-- You can also create a vector using the rep() function, which replicates a specified value or sequence a specified number of times. For example:
+You can also create a vector using the rep() function, which replicates a specified value or sequence a specified number of times. For example:
 
 ```r
 # create a vector containing the value "TRUE" repeated 5 times
